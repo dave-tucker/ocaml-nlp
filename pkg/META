@@ -1,0 +1,7 @@
+description = "Natural Language Processing tools for OCaml"
+version = "%%VERSION_NUM%%"
+requires = "astring"
+archive(byte) = "nlp.cma"
+archive(native) = "nlp.cmxa"
+plugin(byte) = "nlp.cma"
+plugin(native) = "nlp.cmxs"
